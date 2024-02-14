@@ -1,0 +1,40 @@
+
+IDEAS
+ - Primitive Datatypes
+	- Signed Integers
+	- Unsigned Integers
+	- Real Numbers
+	- Strings
+	- Boolean Logic
+ - Pointers
+ - Composite Datatypes
+	- Tuples
+	- Structs
+	- Interfaces
+ - Enum Types
+ - Pure Functions vs. Routines
+	- Pure Functions basically a Switch Statement (maybe faster)
+	- Routines have code in between
+ - Functions + Routines as distinct datatypes
+ - Abstract Datatypes
+	- Slice (like Golang Slices)
+	- Map (probably a Hash Table)
+	- Set (equiv. to a Pascal-Style Set, i.e. an array of booleans, or a Hash Table)
+	- Stack + Queue (maybe as added Slice Functionality?)
+	- Priority Queue (probably a Max or Min Heap)
+	- Graph (too expensive?)
+ - Several Different Loop Types
+	- for loop + while loop
+	- for-each loop for iterating over an iterable datatype
+	- do-while loop for preumpting something which could be repeated
+ - Added Mechanisms for Ease of Programming
+	- Scanner / File
+ - Memory Safety
+ - Automatic Memory Management
+	- No Garbage Collecting!
+ - Rust-like and Go-like Syntax
+	- Types come after variable/constant names
+	- "->" is used to predenote the type returned by a routine or function
+		- Functions must have a non-void return type
+ - TitleCase used for all datatypes
+	- This includes primitive types (Int32, Float64, String, etc.)
